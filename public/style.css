@@ -1,0 +1,76 @@
+
+#showcase {
+  position: relative;
+  animation: game;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes game {
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+.box {
+  animation-name: myanimation;
+  animation-duration: 0.3s;
+}
+
+@keyframes myanimation {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.4;
+  }
+
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#red {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+#red:active {
+  opacity: 0.6;
+}
+
+#yellow {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+#yellow:active {
+  opacity: 0.6;
+}
+
+#green {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+#green:active {
+  opacity: 0.6;
+}
+
+#blue {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+#blue:active {
+  opacity: 0.6;
+}
